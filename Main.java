@@ -20,7 +20,7 @@ class Main {
     }
 
     private static char shift(int i) {
-        return (char) (i << Math.abs(Boolean.compare(true, false)));
+        return (char) (i << getOne());
     }
 
     private static char or(int i, int n) {
